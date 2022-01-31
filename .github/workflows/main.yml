@@ -34,7 +34,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
           FOLDER : dist
-          branch: gh-pages
+          branch: main
           github_token : ${{ secrets.GITHUB_TOKEN }}
 
       # Runs a single command using the runners shell
