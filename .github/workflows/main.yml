@@ -34,7 +34,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.5.9
         with:
           FOLDER : dist
-          branch: main
+          branch: gh-pages
           github_token : ${{ secrets.GITHUB_TOKEN }}
 
       # Runs a single command using the runners shell
@@ -45,4 +45,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo this is a test22
+          echo this is a test23
