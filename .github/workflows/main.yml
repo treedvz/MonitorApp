@@ -32,7 +32,7 @@ jobs:
       - run: ng build --prod --output-path=dist --base-href="https://treedvz.github.io/MonitorApp/"
       - name: Publish generated content to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.5.9
-        with:git re
+        with:git
           FOLDER : dist
           branch: gh-pages
           github_token : ${{ secrets.GITHUB_TOKEN }}
